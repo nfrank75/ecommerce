@@ -3,8 +3,6 @@ from itertools import zip_longest
 from django.db import models
 # from django.utils.translation import ugettext_lazy as _
 
-# Create your models here.
-
 
 class Category(models.Model):
     name = models.CharField("Category Name", max_length=100)
